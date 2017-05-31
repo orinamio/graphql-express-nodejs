@@ -1,0 +1,31 @@
+{
+  "name": "graphql-express-nodejs",
+  "version": "1.0.0",
+  "description": "A Simple GraphQL Server implementation using Express and NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Orinami/graphql-express-nodejs.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "NodeJS",
+    "Express",
+    "GraphQL"
+  ],
+  "author": "Orinami Olatunji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Orinami/graphql-express-nodejs/issues"
+  },
+  "homepage": "https://github.com/Orinami/graphql-express-nodejs#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.6",
+    "graphql": "^0.10.1",
+    "lodash": "^4.17.4"
+  }
+}
