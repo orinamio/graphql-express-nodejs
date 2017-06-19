@@ -1,5 +1,4 @@
 // server.js
-
 /*	
 	Required modules {express and express-graphql} 
 	will be imported along with the schema object
