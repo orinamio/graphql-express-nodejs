@@ -10,7 +10,7 @@ const express = require('express');
 const graphqlHTTP = require('express-graphql');
 const schema = require('./src/schema.js');
 
-let port = 3000;
+const PORT = process.env.PORT || 3000;
 const app = express();
 app.use('/', graphqlHTTP({
   schema: schema,
@@ -18,4 +18,4 @@ app.use('/', graphqlHTTP({
 }));
 
 app.listen(port);
-console.log('GraphQL API server running at localhost:'+ port);
+console.log(`GraphQL API server running at localhost:${PORT}`);
