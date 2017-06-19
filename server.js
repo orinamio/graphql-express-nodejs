@@ -16,5 +16,5 @@ app.use('/', graphqlHTTP({
   graphiql: true //set to false if you don't want graphiql enabled
 }));
 
-app.listen(port);
+app.listen(PORT);
 console.log(`GraphQL API server running at localhost:${PORT}`);
