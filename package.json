@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Orinami/graphql-express-nodejs.git"
+    "url": "git+https://github.com/codediger/graphql-express-nodejs.git"
   },
   "keywords": [
     "JavaScript",
@@ -19,9 +19,9 @@
   "author": "Orinami Olatunji",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Orinami/graphql-express-nodejs/issues"
+    "url": "https://github.com/codediger/graphql-express-nodejs/issues"
   },
-  "homepage": "https://github.com/Orinami/graphql-express-nodejs#readme",
+  "homepage": "https://github.com/codediger/graphql-express-nodejs#readme",
   "dependencies": {
     "express": "^4.15.3",
     "express-graphql": "^0.6.6",
